@@ -1,0 +1,1130 @@
+# Copyright (C) 2016 Catch Themes
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Fabulous Fluid 1.3\n"
+"Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
+"POT-Creation-Date: 2016-12-07 16:44-0500\n"
+"PO-Revision-Date: 2016-12-07 16:44-0500\n"
+"Last-Translator: Catch Themes <info@catchthemes.com>\n"
+"Language-Team: Catch Themes <info@catchthemes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;"
+"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: \n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:25
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:29
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../404.php:37
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: ../404.php:54
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: ../comments.php:31
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../comments.php:40 ../comments.php:61
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:43 ../comments.php:64
+msgid "Older Comments"
+msgstr ""
+
+#: ../comments.php:44 ../comments.php:65
+msgid "Newer Comments"
+msgstr ""
+
+#: ../comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: ../functions.php:62
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:63
+msgid "Header Social Menu"
+msgstr ""
+
+#: ../functions.php:64
+msgid "Footer Social Menu"
+msgstr ""
+
+#: ../functions.php:65
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:250
+msgctxt "Istok Web font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../inc/breadcrumb.php:50
+msgid "Home"
+msgstr ""
+
+#: ../inc/breadcrumb.php:51
+#, php-format
+msgid "%1$s Archive for %2$s"
+msgstr ""
+
+#: ../inc/breadcrumb.php:52
+#, php-format
+msgid "%1$sSearch results for: %2$s"
+msgstr ""
+
+#: ../inc/breadcrumb.php:53
+#, php-format
+msgid "%1$sPosts tagged %2$s"
+msgstr ""
+
+#: ../inc/breadcrumb.php:54
+#, php-format
+msgid "%1$sView all posts by %2$s"
+msgstr ""
+
+#: ../inc/breadcrumb.php:55
+msgid "Error 404"
+msgstr ""
+
+#: ../inc/breadcrumb.php:215
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-custom-controls.php:35
+msgid ""
+"Hold down the Ctrl (windows) / Command (Mac) button to select multiple "
+"options."
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-custom-controls.php:57
+msgid "Theme Instructions"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-custom-controls.php:61
+msgid "Support"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-custom-controls.php:65
+msgid "Changelog"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-custom-controls.php:69
+msgid "Review"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-content-options.php:12
+#: ../inc/featured-content.php:47
+msgid "Featured Content"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-content-options.php:29
+msgid "Enable Featured Content on"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-content-options.php:51
+msgid "Select Featured Content Layout"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-content-options.php:66
+msgid "Check to Move above Footer"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-content-options.php:88
+#: ../inc/customizer-includes/customizer-featured-grid-content-options.php:52
+msgid "Select Content Type"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-content-options.php:103
+msgid "Leave field empty if you want to remove Headline"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-content-options.php:104
+msgid "Headline for Featured Content"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-content-options.php:120
+msgid "Leave field empty if you want to remove Sub-headline"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-content-options.php:121
+msgid "Sub-headline for Featured Content"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-content-options.php:137
+msgid ""
+"Save and refresh the page if No. of Featured Content is changed (Max no of "
+"Featured Content is 20)"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-content-options.php:144
+msgid "No of Featured Content"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-content-options.php:167
+#: ../inc/customizer-includes/customizer-featured-grid-content-options.php:97
+msgid "Display Content"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-content-options.php:188
+#: ../inc/customizer-includes/customizer-featured-grid-content-options.php:118
+#: ../inc/customizer-includes/customizer-featured-slider-options.php:179
+msgid "Featured Page"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-grid-content-options.php:12
+msgid "Featured Grid Content"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-grid-content-options.php:30
+msgid "Enable Featured Grid Content on"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-grid-content-options.php:67
+msgid ""
+"Save and refresh the page if No. of Featured Grid Content is changed (Max no "
+"of Featured Grid Content is 20)"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-grid-content-options.php:74
+msgid "No of Featured Grid Content"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-grid-content-options.php:135
+msgid "Applicable when number of items is more than three"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-grid-content-options.php:136
+msgid "Load More Text"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-slider-options.php:12
+msgid "Featured Slider"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-slider-options.php:29
+msgid "Enable Slider on"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-slider-options.php:51
+msgid "Transition Effect"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-slider-options.php:67
+#: ../inc/customizer-includes/customizer-featured-slider-options.php:86
+msgid "seconds(s)"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-slider-options.php:71
+msgid "Transition Delay"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-slider-options.php:90
+msgid "Transition Length"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-slider-options.php:111
+msgid ""
+"True: Fixes the height overlap issue. Slideshow will start as soon as two "
+"slider are available. Slide may display in random, as image is fetch."
+"<br>Wait: Fixes the height overlap issue. Slide display in sequence. "
+"Slideshow will start only after all images are available."
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-slider-options.php:113
+msgid "Image Loader"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-slider-options.php:135
+msgid "Select Slider Type"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-slider-options.php:150
+msgid ""
+"Save and refresh the page if No. of Slides is changed (Max no of slides is "
+"20)"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-featured-slider-options.php:157
+msgid "No of Slides"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-header-options.php:25
+msgid "Enable Featured Header Image on "
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-header-options.php:46
+msgid "Page/Post Featured Image Size"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-header-options.php:59
+msgid "Featured Header Image Alt/Title Tag "
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-header-options.php:72
+msgid "Featured Header Image Link URL"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-header-options.php:85
+#: ../inc/customizer-includes/customizer-theme-options.php:420
+msgid "Check to Open Link in New Window/Tab"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:12
+msgid "Basic theme Options"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:15
+msgid "Theme Options"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:20
+msgid ""
+"Breadcrumbs are a great way of letting your visitors find out where they are "
+"on your site with just a glance. You can enable/disable them on homepage and "
+"entire site."
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:22
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:33
+msgid "Check to enable Breadcrumb"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:46
+msgid "Check to enable Breadcrumb on Homepage"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:62
+msgid "Seperator between Breadcrumbs"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:77
+msgid "Custom/Inline CSS"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:80
+msgid "Custom CSS Options"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:90
+msgid "Enter Custom CSS"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:103
+msgid "Excerpt Options"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:113
+msgid "Excerpt length. Default is 40 words"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:120
+msgid "Excerpt Length (words)"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:134
+msgid "Read More Text"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:145
+msgid "Form Elements"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:155
+msgid "Check to enable JavaScript Custom Forms"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:164
+msgid ""
+"Only posts that belong to the categories selected here will be displayed on "
+"the front page"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:167
+msgid "Homepage / Frontpage Options"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:177
+msgid "Select Categories"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:191
+#: ../inc/metabox.php:85
+msgid "Layout Options"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:208
+msgid "Default Layout"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:228
+msgid "Archive Content Layout"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:248
+#: ../inc/metabox.php:87
+msgid "Single Page/Post Image Layout "
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:261
+#, php-format
+msgid ""
+"<a target=\"_blank\" href=\"%s\">WP-PageNavi Plugin</a> is recommended for "
+"Numeric Option(But will work without it).<br/>Infinite Scroll Options "
+"requires <a target=\"_blank\" href=\"%s\">JetPack Plugin</a> with Infinite "
+"Scroll module Enabled."
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:281
+#, php-format
+msgid ""
+"Infinite Scroll Options requires <a target=\"_blank\" href=\"%s\">JetPack "
+"Plugin</a> with Infinite Scroll module Enabled."
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:301
+msgid "Pagination Options"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:318
+msgid "Pagination type"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:327
+msgid "To disable the fields, simply leave them empty."
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:330
+msgid "Promotion Headline Options"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:347
+msgid "Enable Promotion Headline on"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:361
+msgid "Appropriate Words: 10"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:362
+msgid "Promotion Headline Text"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:376
+msgid "Appropriate Words: 15"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:377
+msgid "Promotion Subheadline Text"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:391
+msgid "Appropriate Words: 3"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:392
+msgid "Promotion Headline Button Text "
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:406
+msgid "Promotion Headline Link"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:432
+msgid "Scrollup Options"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:442
+msgid "Check to disable Scroll Up"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:451
+msgid "Change default placeholder text in Search."
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:454
+msgid "Search Options"
+msgstr ""
+
+#: ../inc/customizer-includes/customizer-theme-options.php:464
+msgid "Default Display Text in Search"
+msgstr ""
+
+#: ../inc/customizer-includes/upgrade-button/class-customize.php:76
+msgid "Fabulous Fluid Pro"
+msgstr ""
+
+#: ../inc/customizer-includes/upgrade-button/class-customize.php:77
+msgid "Upgrade Now"
+msgstr ""
+
+#: ../inc/customizer.php:30
+msgid "Check to Hide Site Description/Tagline"
+msgstr ""
+
+#: ../inc/customizer.php:44
+msgid "Tagline Color"
+msgstr ""
+
+#: ../inc/customizer.php:70
+msgid "Reset all settings"
+msgstr ""
+
+#: ../inc/customizer.php:81
+msgid "Check to reset all settings to default"
+msgstr ""
+
+#: ../inc/customizer.php:90 ../inc/customizer.php:101
+msgid "Important Links"
+msgstr ""
+
+#: ../inc/customizer.php:147
+msgid "Refresh the customizer page after saving to view reset effects"
+msgstr ""
+
+#: ../inc/default-options.php:51
+msgid "Read More ..."
+msgstr ""
+
+#: ../inc/default-options.php:61
+msgid "Fabulous Fluid is a Responsive WordPress Theme"
+msgstr ""
+
+#: ../inc/default-options.php:62
+msgid ""
+"This is promotion headline. You can edit this from Appearance -> Customize -"
+"> Theme Options -> Promotion Headline Options"
+msgstr ""
+
+#: ../inc/default-options.php:63
+msgid "Buy Now"
+msgstr ""
+
+#: ../inc/default-options.php:68
+msgid "Search..."
+msgstr ""
+
+#: ../inc/default-options.php:92
+msgid "Load More"
+msgstr ""
+
+#: ../inc/default-options.php:129 ../inc/default-options.php:480
+msgid "Homepage / Frontpage"
+msgstr ""
+
+#: ../inc/default-options.php:133
+msgid "Excluding Homepage"
+msgstr ""
+
+#: ../inc/default-options.php:137
+msgid "Excluding Homepage, Page/Post Featured Image"
+msgstr ""
+
+#: ../inc/default-options.php:141 ../inc/default-options.php:484
+msgid "Entire Site"
+msgstr ""
+
+#: ../inc/default-options.php:145
+msgid "Entire Site, Page/Post Featured Image"
+msgstr ""
+
+#: ../inc/default-options.php:149
+msgid "Pages and Posts"
+msgstr ""
+
+#: ../inc/default-options.php:153 ../inc/default-options.php:302
+#: ../inc/default-options.php:488
+msgid "Disabled"
+msgstr ""
+
+#: ../inc/default-options.php:169 ../inc/default-options.php:324
+msgid "Primary Sidebar, Content"
+msgstr ""
+
+#: ../inc/default-options.php:173 ../inc/default-options.php:329
+msgid "Content, Primary Sidebar"
+msgstr ""
+
+#: ../inc/default-options.php:177 ../inc/default-options.php:334
+msgid "No Sidebar ( Content Width )"
+msgstr ""
+
+#: ../inc/default-options.php:193
+msgid "True"
+msgstr ""
+
+#: ../inc/default-options.php:197
+msgid "Wait"
+msgstr ""
+
+#: ../inc/default-options.php:201
+msgid "False"
+msgstr ""
+
+#: ../inc/default-options.php:217
+msgid "Show Excerpt (Excerpt Image Left)"
+msgstr ""
+
+#: ../inc/default-options.php:221
+msgid "Show Full Content (No Featured Image)"
+msgstr ""
+
+#: ../inc/default-options.php:237 ../inc/default-options.php:290
+#: ../inc/default-options.php:382
+msgid "Featured Image"
+msgstr ""
+
+#: ../inc/default-options.php:241 ../inc/default-options.php:294
+#: ../inc/default-options.php:387
+msgid "Slider"
+msgstr ""
+
+#: ../inc/default-options.php:245 ../inc/default-options.php:392
+msgid "Full Image"
+msgstr ""
+
+#: ../inc/default-options.php:261
+msgid "Default(Older Posts/Newer Posts)"
+msgstr ""
+
+#: ../inc/default-options.php:265
+msgid "Numeric"
+msgstr ""
+
+#: ../inc/default-options.php:269
+msgid "Infinite Scroll (Click)"
+msgstr ""
+
+#: ../inc/default-options.php:273
+msgid "Infinite Scroll (Scroll)"
+msgstr ""
+
+#: ../inc/default-options.php:298
+msgid "Full size"
+msgstr ""
+
+#: ../inc/default-options.php:319 ../inc/default-options.php:350
+#: ../inc/default-options.php:377
+msgid "Default"
+msgstr ""
+
+#: ../inc/default-options.php:355
+msgid "Enable"
+msgstr ""
+
+#: ../inc/default-options.php:360
+msgid "Disable"
+msgstr ""
+
+#: ../inc/default-options.php:397
+msgid "Disable Image"
+msgstr ""
+
+#: ../inc/default-options.php:412
+msgid "4 columns"
+msgstr ""
+
+#: ../inc/default-options.php:416
+msgid "5 columns"
+msgstr ""
+
+#: ../inc/default-options.php:420
+msgid "6 columns"
+msgstr ""
+
+#: ../inc/default-options.php:436
+msgid "Show Excerpt"
+msgstr ""
+
+#: ../inc/default-options.php:440
+msgid "Show Full Content"
+msgstr ""
+
+#: ../inc/default-options.php:444
+msgid "Hide Content"
+msgstr ""
+
+#: ../inc/default-options.php:460
+msgid "Demo Content"
+msgstr ""
+
+#: ../inc/default-options.php:464
+msgid "Page Content"
+msgstr ""
+
+#: ../inc/default-options.php:504
+msgid "Demo Featured Slider"
+msgstr ""
+
+#: ../inc/default-options.php:508
+msgid "Featured Page Slider"
+msgstr ""
+
+#: ../inc/default-options.php:525
+msgid "Fade"
+msgstr ""
+
+#: ../inc/default-options.php:529
+msgid "Fade Out"
+msgstr ""
+
+#: ../inc/default-options.php:533
+msgid "None"
+msgstr ""
+
+#: ../inc/default-options.php:537
+msgid "Scroll Horizontal"
+msgstr ""
+
+#: ../inc/default-options.php:541
+msgid "Scroll Vertical"
+msgstr ""
+
+#: ../inc/default-options.php:545
+msgid "Flip Horizontal"
+msgstr ""
+
+#: ../inc/default-options.php:549
+msgid "Flip Vertical"
+msgstr ""
+
+#: ../inc/default-options.php:553
+msgid "Tile Slide"
+msgstr ""
+
+#: ../inc/default-options.php:557
+msgid "Tile Blind"
+msgstr ""
+
+#: ../inc/default-options.php:561
+msgid "Shuffle"
+msgstr ""
+
+#: ../inc/extras.php:385
+msgid "Scroll Up"
+msgstr ""
+
+#: ../inc/extras.php:424
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../inc/featured-content.php:48
+msgid "Here you can showcase the x number of Featured Content"
+msgstr ""
+
+#: ../inc/featured-content.php:132 ../inc/featured-content.php:133
+#: ../inc/featured-content.php:139
+msgid "Central Park"
+msgstr ""
+
+#: ../inc/featured-content.php:142 ../inc/featured-content.php:164
+#: ../inc/featured-content.php:186 ../inc/featured-content.php:206
+#: ../inc/featured-content.php:228 ../inc/featured-content.php:251
+#: ../inc/featured-grid-content.php:95 ../inc/featured-grid-content.php:118
+#: ../inc/featured-grid-content.php:143 ../inc/featured-grid-content.php:169
+#: ../inc/featured-grid-content.php:194 ../inc/featured-grid-content.php:218
+#: ../inc/featured-grid-content.php:243 ../inc/featured-grid-content.php:265
+#: ../inc/featured-grid-content.php:287 ../inc/featured-grid-content.php:313
+#: ../inc/featured-grid-content.php:335 ../inc/featured-grid-content.php:357
+msgid "Adventure"
+msgstr ""
+
+#: ../inc/featured-content.php:143 ../inc/featured-content.php:165
+#: ../inc/featured-content.php:187 ../inc/featured-content.php:207
+#: ../inc/featured-content.php:229 ../inc/featured-content.php:252
+#: ../inc/featured-grid-content.php:96 ../inc/featured-grid-content.php:119
+#: ../inc/featured-grid-content.php:144 ../inc/featured-grid-content.php:170
+#: ../inc/featured-grid-content.php:195 ../inc/featured-grid-content.php:219
+#: ../inc/featured-grid-content.php:244 ../inc/featured-grid-content.php:266
+#: ../inc/featured-grid-content.php:288 ../inc/featured-grid-content.php:314
+#: ../inc/featured-grid-content.php:336 ../inc/featured-grid-content.php:358
+msgid "9 Oct, 2015"
+msgstr ""
+
+#: ../inc/featured-content.php:147
+msgid ""
+"Central Park is is the most visited urban park in the United States as well "
+"as one of the most filmed locations in the world. It was opened in 1857 and "
+"is expanded in 843 acres of city-owned land."
+msgstr ""
+
+#: ../inc/featured-content.php:147 ../inc/featured-content.php:169
+#: ../inc/featured-content.php:191 ../inc/featured-content.php:211
+#: ../inc/featured-content.php:233 ../inc/featured-content.php:256
+#: ../inc/featured-grid-content.php:100 ../inc/featured-grid-content.php:123
+#: ../inc/featured-grid-content.php:149 ../inc/featured-grid-content.php:175
+#: ../inc/featured-grid-content.php:200 ../inc/featured-grid-content.php:224
+#: ../inc/featured-grid-content.php:249 ../inc/featured-grid-content.php:271
+#: ../inc/featured-grid-content.php:293 ../inc/featured-grid-content.php:319
+#: ../inc/featured-grid-content.php:341 ../inc/featured-grid-content.php:363
+#: ../inc/featured-slider.php:114 ../inc/featured-slider.php:127
+#: ../inc/featured-slider.php:140 ../inc/featured-slider.php:153
+#: ../inc/featured-slider.php:166
+msgid "Read More"
+msgstr ""
+
+#: ../inc/featured-content.php:154 ../inc/featured-content.php:155
+#: ../inc/featured-content.php:161
+msgid "Home Office"
+msgstr ""
+
+#: ../inc/featured-content.php:169
+msgid ""
+"It might be work, but it doesn't have to feel like it. All you need is a "
+"comfortable desk, nice laptop, home office furniture that keeps things "
+"organized, and the right lighting for the job."
+msgstr ""
+
+#: ../inc/featured-content.php:176 ../inc/featured-content.php:177
+#: ../inc/featured-content.php:183
+msgid "Vespa Scooter"
+msgstr ""
+
+#: ../inc/featured-content.php:191
+msgid ""
+"The Vespa Scooter has evolved from a single model motor scooter manufactured "
+"by Piaggio & Co. S.p.A. of Pontedera, Italy-to a full line of scooters, "
+"today owned by Piaggio."
+msgstr ""
+
+#: ../inc/featured-content.php:198 ../inc/featured-content.php:203
+msgid "Antique Clock"
+msgstr ""
+
+#: ../inc/featured-content.php:211
+msgid ""
+"Antique clocks increase in value with the rarity of the design, their "
+"condition, and appeal in the market place. Many different materials were "
+"used in antique clocks."
+msgstr ""
+
+#: ../inc/featured-content.php:220 ../inc/featured-content.php:225
+msgid "Vintage Bicycle"
+msgstr ""
+
+#: ../inc/featured-content.php:233
+msgid ""
+"Vintage Bicycle. A bicycle, often called a bike or cycle, is a human-"
+"powered, pedal-driven, single-track vehicle, having two wheels attached to a "
+"frame, one behind the other."
+msgstr ""
+
+#: ../inc/featured-content.php:243 ../inc/featured-content.php:248
+msgid "Fishing Boats"
+msgstr ""
+
+#: ../inc/featured-content.php:256
+msgid ""
+"A boat is a watercraft of any size designed to float or plane, to work or "
+"travel on water. Small boats are typically found on inland (lakes) or in "
+"protected coastal areas."
+msgstr ""
+
+#: ../inc/featured-grid-content.php:92 ../inc/featured-grid-content.php:240
+msgid "Farmers works in field everyday"
+msgstr ""
+
+#: ../inc/featured-grid-content.php:100 ../inc/featured-grid-content.php:249
+#: ../inc/featured-grid-content.php:319
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a lorem vitae "
+"nisi dignissim eleifend... "
+msgstr ""
+
+#: ../inc/featured-grid-content.php:114 ../inc/featured-grid-content.php:263
+msgid "Old Monkey"
+msgstr ""
+
+#: ../inc/featured-grid-content.php:123
+msgid "Lorem ipsum dolor sit a "
+msgstr ""
+
+#: ../inc/featured-grid-content.php:140 ../inc/featured-grid-content.php:285
+msgid "Natural Resources"
+msgstr ""
+
+#: ../inc/featured-grid-content.php:149
+msgid "Lorem ipsum dolor sit a"
+msgstr ""
+
+#: ../inc/featured-grid-content.php:166
+msgid "Breath Taking Mountains"
+msgstr ""
+
+#: ../inc/featured-grid-content.php:175 ../inc/featured-grid-content.php:200
+#: ../inc/featured-grid-content.php:224 ../inc/featured-grid-content.php:271
+#: ../inc/featured-grid-content.php:293 ../inc/featured-grid-content.php:341
+#: ../inc/featured-grid-content.php:363
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a lorem vitae "
+"nisi dignissim eleifend..."
+msgstr ""
+
+#: ../inc/featured-grid-content.php:190 ../inc/featured-grid-content.php:333
+msgid "Fox<br/>Tales"
+msgstr ""
+
+#: ../inc/featured-grid-content.php:215 ../inc/featured-grid-content.php:355
+msgid "Northern Lights"
+msgstr ""
+
+#: ../inc/featured-slider.php:106 ../inc/featured-slider.php:107
+#: ../inc/featured-slider.php:110
+msgid "Slider Image 1"
+msgstr ""
+
+#: ../inc/featured-slider.php:112
+msgid "Slider Image 1 Content"
+msgstr ""
+
+#: ../inc/featured-slider.php:119 ../inc/featured-slider.php:120
+#: ../inc/featured-slider.php:123
+msgid "Slider Image 2"
+msgstr ""
+
+#: ../inc/featured-slider.php:125
+msgid "Slider Image 2 Content"
+msgstr ""
+
+#: ../inc/featured-slider.php:132 ../inc/featured-slider.php:133
+#: ../inc/featured-slider.php:136
+msgid "Slider Image 3"
+msgstr ""
+
+#: ../inc/featured-slider.php:138
+msgid "Slider Image 3 Content"
+msgstr ""
+
+#: ../inc/featured-slider.php:145 ../inc/featured-slider.php:146
+#: ../inc/featured-slider.php:149
+msgid "Slider Image 4"
+msgstr ""
+
+#: ../inc/featured-slider.php:151
+msgid "Slider Image 4 Content"
+msgstr ""
+
+#: ../inc/featured-slider.php:158 ../inc/featured-slider.php:159
+#: ../inc/featured-slider.php:162
+msgid "Slider Image 5"
+msgstr ""
+
+#: ../inc/featured-slider.php:164
+msgid "Slider Image 5 Content"
+msgstr ""
+
+#: ../inc/metabox.php:86
+msgid "Header Featured Image Options"
+msgstr ""
+
+#: ../inc/metabox.php:213
+msgid "Fabulous Fluid Options"
+msgstr ""
+
+#: ../inc/structure.php:56
+msgid "Skip to content"
+msgstr ""
+
+#: ../inc/structure.php:206
+msgid "Menu"
+msgstr ""
+
+#: ../inc/structure.php:609
+#, php-format
+msgctxt "1: Year, 2: Site Title with home URL"
+msgid "Copyright &copy; %1$s %2$s"
+msgstr ""
+
+#: ../inc/structure.php:618
+msgctxt "attribution"
+msgid "by"
+msgstr ""
+
+#: ../inc/template-tags.php:54
+msgid "Previous page"
+msgstr ""
+
+#: ../inc/template-tags.php:55
+msgid "Next page"
+msgstr ""
+
+#: ../inc/template-tags.php:56
+msgid "Page"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: ../inc/template-tags.php:108 ../inc/template-tags.php:114
+#: ../inc/template-tags.php:189
+msgid ", "
+msgstr ""
+
+#: ../inc/template-tags.php:110
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: ../inc/template-tags.php:116
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: ../inc/template-tags.php:122
+msgid "Leave a comment"
+msgstr ""
+
+#: ../inc/template-tags.php:122
+msgid "1 Comment"
+msgstr ""
+
+#: ../inc/template-tags.php:122
+msgid "% Comments"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: ../inc/template-tags.php:129 ../template-parts/content-page.php:33
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: ../inc/widgets.php:19
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../inc/widgets.php:21
+msgid ""
+"This is the primary sidebar if you are using two column site layout option."
+msgstr ""
+
+#: ../inc/widgets.php:32
+#, php-format
+msgid "Footer Area %d"
+msgstr ""
+
+#: ../inc/widgets.php:38
+#, php-format
+msgid "Footer %d widget area."
+msgstr ""
+
+#: ../inc/widgets.php:60
+msgid "Use this widget to add Social Icons Menu as a widget. "
+msgstr ""
+
+#: ../inc/widgets.php:128
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: ../inc/widgets.php:133
+msgid "Title"
+msgstr ""
+
+#: ../inc/widgets.php:137
+msgid "Select Menu:"
+msgstr ""
+
+#: ../inc/widgets.php:139
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: ../search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:14 ../searchform.php:15
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: ../searchform.php:17
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: ../sidebar.php:33
+msgid "Primary Sidebar Widget Area"
+msgstr ""
+
+#: ../sidebar.php:36
+msgid ""
+"This is the Primary Sidebar Widget Area if you are using a two or three "
+"column site layout option."
+msgstr ""
+
+#: ../sidebar.php:37
+#, php-format
+msgid ""
+"By default it will load Search and Archives widgets as shown below. You can "
+"add widget to this area by visiting your <a href=\"%1$s\">Widgets Panel</a> "
+"which will replace default widgets."
+msgstr ""
+
+#: ../sidebar.php:50
+msgid "Archives"
+msgstr ""
+
+#: ../template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: ../template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../template-parts/content-page.php:22 ../template-parts/content.php:57
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: ../template-parts/content.php:52
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
