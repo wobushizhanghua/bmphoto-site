@@ -2632,7 +2632,6 @@ class WP_Query {
 			 * @param WP_Query &$this The WP_Query instance (passed by reference).
 			 */
 			$where = apply_filters_ref_array( 'posts_where_request', array( $where, &$this ) );
-
 			/**
 			 * Filters the GROUP BY clause of the query.
 			 *
@@ -2769,7 +2768,6 @@ class WP_Query {
 		 * @param WP_Query   $this  The WP_Query instance, passed by reference.
 		 */
 		$this->posts = apply_filters_ref_array( 'posts_pre_query', array( null, &$this ) );
-
 		if ( 'ids' == $q['fields'] ) {
 			if ( null === $this->posts ) {
 				$this->posts = $wpdb->get_col( $this->request );
@@ -3235,7 +3233,8 @@ class WP_Query {
 	public function query( $query ) {
 		$this->init();
 		$this->query = $this->query_vars = wp_parse_args( $query );
-		return $this->get_posts();
+		$posts = $this->get_posts();
+		return $posts;
 	}
 
 	/**

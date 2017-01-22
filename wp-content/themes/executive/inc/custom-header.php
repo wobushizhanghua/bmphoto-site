@@ -19,7 +19,7 @@ function executive_custom_header_setup() {
         'default-image' => get_template_directory_uri() . '/assets/images/header.jpg',
         'default-text-color'     => '000000',
         'width'                  => 1920,
-        'height'                 => 700,
+        'height'                 => 300,
         'flex-height'            => true,
         'wp-head-callback'       => 'executive_header_style',
         'admin-head-callback'    => 'executive_admin_header_style',

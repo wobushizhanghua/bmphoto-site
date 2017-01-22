@@ -19,23 +19,8 @@
 				<?php wp_nav_menu( array( 'theme_location' => 'footer', 'fallback_cb' => 'false', 'depth' => 1 ) ); ?>
 
 				<div class="copyright">
-					<?php printf( esc_html__( '%1$s by %2$s.', 'executive' ), 'Powered by', '<a href="https://wordpress.org/" rel="designer">WordPress</a>' ); ?>
-
-					<?php printf( esc_html__( '%1$s by %2$s.', 'executive' ), 'Executive Theme', '<a href="https://diversethemes.com/" rel="designer">Diverse Themes</a>' ); ?>
-				</div>
+	aaaa			</div>
 			</div><!-- .site-info -->
-
-			<?php
-				wp_nav_menu( array(
-					'theme_location' => 'social',
-					'depth' => 1,
-					'link_before' => '<span class="screen-reader-text">',
-					'link_after' => '</span>',
-					'container_class' => 'social-links',
-					'fallback_cb' => 'false',
-				) );
-			?>
-
 		</div><!-- .site-credits -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
