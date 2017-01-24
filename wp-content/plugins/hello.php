@@ -12,7 +12,6 @@ function clauses_filter($query) {
 	AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'private')";
 	return $query;
 }
-add_action('posts_clauses', 'clauses_filter');
 function content_filter($content) {
 	foreach($content as &$post) {
 		if (get_post_format($post) != 'image') {
@@ -33,6 +32,10 @@ function content_filter($content) {
 add_action( 'the_posts', 'content_filter' );
 
 function my_parse_query($query) {
+	if (count($query->query) == 0) {
+		//index page
+		add_action('posts_clauses', 'clauses_filter');
+	}
 }
 add_action( 'parse_query', 'my_parse_query' );
 
