@@ -23,19 +23,19 @@
 define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'photo');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'ci123photo');
+define('DB_PASSWORD', 'asdf');
 
 /** MySQL hostname */
-define('DB_HOST', '10.66.133.203');
+define('DB_HOST', '127.0.0.1');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', 'utf8-general-ci');
+define('DB_COLLATE', '');
 
 /**#@+
  * Authentication Unique Keys and Salts.
