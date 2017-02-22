@@ -195,7 +195,6 @@ function wp_version_check( $extra_stats = array(), $force_check = false ) {
  * @param array $extra_stats Extra statistics to report to the WordPress.org API.
  */
 function wp_update_plugins( $extra_stats = array() ) {
-	return;
 	if ( wp_installing() ) {
 		return;
 	}

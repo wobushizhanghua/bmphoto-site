@@ -2255,12 +2255,12 @@ class WP_Query {
 			if ( empty( $in_search_post_types ) ) {
 				$where .= ' AND 1=0 ';
 			} else {
-				$where .= " AND {$wpdb->posts}.post_type IN ('" . join("', '", $in_search_post_types ) . "')";
+				$where .= " AND {$wpdb->posts}.post_type IN ('" . join( "', '", array_map( 'esc_sql', $in_search_post_types ) ) . "')";
 			}
 		} elseif ( !empty( $post_type ) && is_array( $post_type ) ) {
-			$where .= " AND {$wpdb->posts}.post_type IN ('" . join("', '", $post_type) . "')";
+			$where .= " AND {$wpdb->posts}.post_type IN ('" . join("', '", esc_sql( $post_type ) ) . "')";
 		} elseif ( ! empty( $post_type ) ) {
-			$where .= " AND {$wpdb->posts}.post_type = '$post_type'";
+			$where .= $wpdb->prepare( " AND {$wpdb->posts}.post_type = %s", $post_type );
 			$post_type_object = get_post_type_object ( $post_type );
 		} elseif ( $this->is_attachment ) {
 			$where .= " AND {$wpdb->posts}.post_type = 'attachment'";
@@ -2632,6 +2632,7 @@ class WP_Query {
 			 * @param WP_Query &$this The WP_Query instance (passed by reference).
 			 */
 			$where = apply_filters_ref_array( 'posts_where_request', array( $where, &$this ) );
+
 			/**
 			 * Filters the GROUP BY clause of the query.
 			 *
@@ -2768,6 +2769,7 @@ class WP_Query {
 		 * @param WP_Query   $this  The WP_Query instance, passed by reference.
 		 */
 		$this->posts = apply_filters_ref_array( 'posts_pre_query', array( null, &$this ) );
+
 		if ( 'ids' == $q['fields'] ) {
 			if ( null === $this->posts ) {
 				$this->posts = $wpdb->get_col( $this->request );
@@ -3233,8 +3235,7 @@ class WP_Query {
 	public function query( $query ) {
 		$this->init();
 		$this->query = $this->query_vars = wp_parse_args( $query );
-		$posts = $this->get_posts();
-		return $posts;
+		return $this->get_posts();
 	}
 
 	/**
