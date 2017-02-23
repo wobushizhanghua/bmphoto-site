@@ -1207,26 +1207,22 @@ function wp_print_media_templates() {
 
 	<script type="text/html" id="tmpl-editor-gallery">
 		<# if ( data.attachments.length ) { #>
-			<div class="gallery gallery-columns-{{ data.columns }}">
-				<# _.each( data.attachments, function( attachment, index ) { #>
+			<div class="gallery">
 					<dl class="gallery-item">
 						<dt class="gallery-icon">
-							<# if ( attachment.thumbnail ) { #>
-								<img src="{{ attachment.thumbnail.url }}" width="{{ attachment.thumbnail.width }}" height="{{ attachment.thumbnail.height }}" alt="" />
+							<# if ( data.attachments[0].thumbnail ) { #>
+								<img src="{{ data.attachments[0].thumbnail.url }}" width="{{ data.attachments[0].thumbnail.width }}" height="{{ data.attachments[0].thumbnail.height }}" alt="" />
 							<# } else { #>
-								<img src="{{ attachment.url }}" alt="" />
+								<img src="{{ data.attachments[0].url }}" alt="" />
 							<# } #>
 						</dt>
-						<# if ( attachment.caption ) { #>
+						<# if ( data.attachments[0].caption ) { #>
 							<dd class="wp-caption-text gallery-caption">
-								{{{ data.verifyHTML( attachment.caption ) }}}
+								{{{ data.verifyHTML( data.attachments[0].caption ) }}}
 							</dd>
 						<# } #>
 					</dl>
-					<# if ( index % data.columns === data.columns - 1 ) { #>
-						<br style="clear: both;">
-					<# } #>
-				<# } ); #>
+					<br style="clear: both;">
 			</div>
 		<# } else { #>
 			<div class="wpview-error">

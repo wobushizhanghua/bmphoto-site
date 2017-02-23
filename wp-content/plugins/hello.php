@@ -12,8 +12,35 @@ function clauses_filter($query) {
 	AND (wp_posts.post_status = 'publish' OR wp_posts.post_status = 'private')";
 	return $query;
 }
+
+function filter_album_callback($match) {
+	$arr = preg_split('/,/i', $match[1]);
+	$id = $arr[0];
+	$url = wp_get_attachment_image_src($id, 'full');
+	$img = wp_get_attachment_image($id);
+	$setid = time() . rand(1,10000);
+	$content = "<a href='{$url[0]}' data-lightbox='set{$setid}'>{$img}</a>";
+	$content .= "<div style='display:none'>";
+	
+	for ($i = 1; $i < count($arr); $i++) {
+		$id = $arr[$i];
+		$url = wp_get_attachment_image_src($id, 'full');
+		$img = wp_get_attachment_image($id);
+
+		$content .= "<a href='{$url[0]}' data-lightbox='set{$setid}'>{$img}</a>";
+	}
+	$content .= "</div>";
+	return $content;
+}
+
+function filter_album($content) {
+	return preg_replace_callback('/\[gallery ids="(.*)"\]/iU', "filter_album_callback", $content);
+}
+
 function content_filter($content) {
+	//var_dump($content);
 	foreach($content as &$post) {
+		$post->post_content = filter_album($post->post_content);
 		if (get_post_format($post) != 'image') {
 			continue;
 		}
