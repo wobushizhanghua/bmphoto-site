@@ -128,8 +128,9 @@ function wp_admin_bar_wp_menu( $wp_admin_bar ) {
 		);
 	}
 
-	$wp_admin_bar->add_menu( $wp_logo_menu_args );
+	//$wp_admin_bar->add_menu( $wp_logo_menu_args );
 
+	/*
 	if ( $about_url ) {
 		// Add "About WordPress" link
 		$wp_admin_bar->add_menu( array(
@@ -171,6 +172,7 @@ function wp_admin_bar_wp_menu( $wp_admin_bar ) {
 		'title'     => __('Feedback'),
 		'href'      => __('https://wordpress.org/support/forum/requests-and-feedback'),
 	) );
+	*/
 }
 
 /**
@@ -369,6 +371,7 @@ function wp_admin_bar_site_menu( $wp_admin_bar ) {
  * @global WP_Customize_Manager $wp_customize
  */
 function wp_admin_bar_customize_menu( $wp_admin_bar ) {
+	return;
 	global $wp_customize;
 
 	// Don't show for users who can't access the customizer or when in the admin.
@@ -822,6 +825,7 @@ function wp_admin_bar_appearance_menu( $wp_admin_bar ) {
  * @param WP_Admin_Bar $wp_admin_bar
  */
 function wp_admin_bar_updates_menu( $wp_admin_bar ) {
+	return;
 
 	$update_data = wp_get_update_data();
 

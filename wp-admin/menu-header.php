@@ -251,7 +251,6 @@ function _wp_menu_output( $menu, $submenu, $submenu_as_parent = true ) {
 <ul id="adminmenu">
 
 <?php
-
 _wp_menu_output( $menu, $submenu );
 /**
  * Fires after the admin menu has been output.

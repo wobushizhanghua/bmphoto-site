@@ -22,7 +22,7 @@
 
 $menu[2] = array( __('Dashboard'), 'read', 'index.php', '', 'menu-top menu-top-first menu-icon-dashboard', 'menu-dashboard', 'dashicons-dashboard' );
 
-$submenu[ 'index.php' ][0] = array( __('Home'), 'read', 'index.php' );
+//$submenu[ 'index.php' ][0] = array( __('Home'), 'read', 'index.php' );
 
 if ( is_multisite() ) {
 	$submenu[ 'index.php' ][5] = array( __('My Sites'), 'read', 'my-sites.php' );
@@ -208,6 +208,7 @@ $submenu['plugins.php'][5]  = array( __('Installed Plugins'), 'activate_plugins'
 		$submenu['plugins.php'][10] = array( _x('Add New', 'plugin'), 'install_plugins', 'plugin-install.php' );
 		$submenu['plugins.php'][15] = array( _x('Editor', 'plugin editor'), 'edit_plugins', 'plugin-editor.php' );
 	}
+
 
 unset( $update_data );
 

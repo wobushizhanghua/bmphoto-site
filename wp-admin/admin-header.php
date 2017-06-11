@@ -252,7 +252,7 @@ if ( is_network_admin() ) {
 	 *
 	 * @since 3.1.0
 	 */
-	do_action( 'admin_notices' );
+//	do_action( 'admin_notices' );
 }
 
 /**
@@ -260,7 +260,7 @@ if ( is_network_admin() ) {
  *
  * @since 3.1.0
  */
-do_action( 'all_admin_notices' );
+//do_action( 'all_admin_notices' );
 
 if ( $parent_file == 'options-general.php' )
 	require(ABSPATH . 'wp-admin/options-head.php');

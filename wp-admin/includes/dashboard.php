@@ -35,8 +35,8 @@ function wp_dashboard_setup() {
 	}
 
 	// Right Now
-	if ( is_blog_admin() && current_user_can('edit_posts') )
-		wp_add_dashboard_widget( 'dashboard_right_now', __( 'At a Glance' ), 'wp_dashboard_right_now' );
+//	if ( is_blog_admin() && current_user_can('edit_posts') )
+//		wp_add_dashboard_widget( 'dashboard_right_now', __( 'At a Glance' ), 'wp_dashboard_right_now' );
 
 	if ( is_network_admin() )
 		wp_add_dashboard_widget( 'network_dashboard_right_now', __( 'Right Now' ), 'wp_network_dashboard_right_now' );
@@ -53,7 +53,7 @@ function wp_dashboard_setup() {
 	}
 
 	// WordPress News
-	wp_add_dashboard_widget( 'dashboard_primary', __( 'WordPress News' ), 'wp_dashboard_primary' );
+//	wp_add_dashboard_widget( 'dashboard_primary', __( 'WordPress News' ), 'wp_dashboard_primary' );
 
 	if ( is_network_admin() ) {
 

@@ -30,7 +30,7 @@ if ( wp_is_mobile() )
 
 $title = __('Dashboard');
 $parent_file = 'index.php';
-
+/*
 $help = '<p>' . __( 'Welcome to your WordPress Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features of WordPress. You can get help for any screen by clicking the Help tab above the screen title.' ) . '</p>';
 
 $screen = get_current_screen();
@@ -71,13 +71,11 @@ if ( is_blog_admin() && current_user_can( 'edit_posts' ) )
 	$help .= '<p>' . __( "<strong>Quick Draft</strong> &mdash; Allows you to create a new post and save it as a draft. Also displays links to the 5 most recent draft posts you've started." ) . '</p>';
 if ( ! is_multisite() && current_user_can( 'install_plugins' ) )
 	$help .= '<p>' . sprintf(
-		/* translators: %s: WordPress Planet URL */
 		__( '<strong>WordPress News</strong> &mdash; Latest news from the official WordPress project, the <a href="%s">WordPress Planet</a>, and popular plugins.' ),
 		__( 'https://planet.wordpress.org/' )
 	) . '</p>';
 else
 	$help .= '<p>' . sprintf(
-		/* translators: %s: WordPress Planet URL */
 		__( '<strong>WordPress News</strong> &mdash; Latest news from the official WordPress project and the <a href="%s">WordPress Planet</a>.' ),
 		__( 'https://planet.wordpress.org/' )
 	) . '</p>';
@@ -97,14 +95,14 @@ $screen->set_help_sidebar(
 	'<p>' . __( '<a href="https://codex.wordpress.org/Dashboard_Screen">Documentation on Dashboard</a>' ) . '</p>' .
 	'<p>' . __( '<a href="https://wordpress.org/support/">Support Forums</a>' ) . '</p>'
 );
-
+*/
 include( ABSPATH . 'wp-admin/admin-header.php' );
 ?>
 
 <div class="wrap">
 	<h1><?php echo esc_html( $title ); ?></h1>
 
-<?php if ( has_action( 'welcome_panel' ) && current_user_can( 'edit_theme_options' ) ) :
+<?php if (false && has_action( 'welcome_panel' ) && current_user_can( 'edit_theme_options' ) ) :
 	$classes = 'welcome-panel';
 
 	$option = get_user_meta( get_current_user_id(), 'show_welcome_panel', true );

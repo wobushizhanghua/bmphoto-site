@@ -638,6 +638,51 @@ function get_default_post_to_edit( $post_type = 'post', $create_in_db = false ) 
 	 * @param string  $post_content Default post content.
 	 * @param WP_Post $post         Post object.
 	 */
+	if ($post_content == '') {
+		$post_content = <<<TXT
+<p style="text-align: center;">这里可以写图片的一些介绍</p>
+点击下面的图片，可以编辑替换上传新的
+如果不需要，可以删除
+或者修改表格
+
+如果要删除或者复制下面的表格，点击编辑器右上角 '文本',从里面删除或者复制以下代码
+↓↓↓↓↓↓↓↓↓
+<table style="width: 374px; height: 184px;">
+<tbody>
+<tr>
+<td style="width: 150px;">3P ，点击流览 -&gt;</td>
+<td style="width: 184px;">[gallery ids="289,290,291"]</td>
+</tr>
+</tbody>
+</table>
+↑↑↑↑↑↑↑↑↑
+
+
+如果要删除或者复制下面的表格，点击编辑器右上角 '文本',从里面删除或者复制以下代码
+↓↓↓↓↓↓↓↓↓
+<table style="width: 755px; height: 200px;">
+<tbody>
+<tr style="height: 278px;">
+<td style="width: 160px; height: 278px;">
+<p style="text-align: center;"><span style="font-family: 'comic sans ms', sans-serif; font-size: 18pt; color: #000000;">拍摄合集</span></p>
+[gallery ids="155,154,153"]</td>
+<td style="width: 162px; height: 278px;">
+<p style="text-align: center;"><span style="font-size: 18pt;">内景</span></p>
+[gallery ids="154,155,153"]</td>
+<td style="width: 159px; height: 278px;">
+<p style="text-align: center;"><span style="font-family: 'arial black', sans-serif; font-size: 18pt;">广角</span></p>
+[gallery ids="163,155,154,153"]</td>
+<td style="width: 160px; height: 278px;">
+<p style="text-align: center;"><span style="font-family: 'arial black', sans-serif; font-size: 18pt;">酒店外景1</span></p>
+[gallery ids="155,154,153"]</td>
+</tr>
+</tbody>
+</table>
+↑↑↑↑↑↑↑↑↑
+
+TXT;
+	}
+		
 	$post->post_content = apply_filters( 'default_content', $post_content, $post );
 
 	/**
