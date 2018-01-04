@@ -39,6 +39,7 @@
          <div class="site-info">
           <?php esc_html_e('Copyright &copy;', 'morphology-lite'); ?> 
           <?php echo date('Y'); ?> <?php echo esc_html(get_theme_mod( 'copyright', 'Your Name' )); ?>.<br><?php esc_html_e('All rights reserved.', 'morphology-lite'); ?>
+	  <br>粤ICP备17160680号-1
         </div>
         
 	</footer><!-- .site-footer -->		
