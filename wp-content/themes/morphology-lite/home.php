@@ -11,6 +11,10 @@
  *
  * @package Morphology Lite
  */
+				if (!$_GET['cat']) {
+					header("location: /?cat=8");
+					die();
+				}
 
 $blog_style = esc_attr(get_theme_mod( 'blog_style', 'blogstyle1' ));
 
